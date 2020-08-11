@@ -375,7 +375,7 @@ textarea {
   }
   header .content-wrapper {
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
   }
   header nav {
     width: 20%;
@@ -411,7 +411,7 @@ textarea {
     flex-basis: 50%;
   }
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
   /* Reviews */
   .reviews article {
@@ -419,7 +419,7 @@ textarea {
     justify-content: space-between;
   }
   .reviews article div {
-    width: 50%;
+    width: 49%;
   }
 
   /* Footer */
@@ -439,7 +439,7 @@ textarea {
     width: 100%;
   }
 
-  /* About */
+  /***** About Page *****/
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -458,7 +458,7 @@ textarea {
     align-items: flex-start;
   }
 
-  /* FAQ */
+  /***** FAQ Page *****/
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -472,6 +472,45 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles */
+  .content-wrapper {
+    width: 960px;
+  }
+
+  /* Hero Area */
+  .hero-area h1 {
+    width: 60%;
+  }
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+  .features h2 {
+    width: 90%;
+  }
+  .features article {
+    flex-basis: 33%;
+  }
+  /* Reviews */
+  .reviews article div {
+    width: 42%;
+  }
+
+/***** About Page *****/
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+
+/***** FAQ Page *****/
+  .faq h2 {
+    width: 100%;
+  }
 }
 /* ==========================================================================
    Print styles.
