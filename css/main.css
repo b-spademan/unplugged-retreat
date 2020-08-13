@@ -87,6 +87,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*** General Syles ***/
+
+   html {
+    font-size: 16px;
+    }
+
+   body {
+     font-family: 'open sans', sans-serif;
+     font-size: 1em;
+     text-align: left;
+   }
+
+   ul {
+     list-style-type: none;
+   }
+
+   a {
+     color: #e2e3ed;
+     text-decoration: none;
+   }
+
+   h2 {
+     font-family: 'poppins', sans-serif;
+     font-size: 1.875em;
+   }
+
+   h3,
+   h4 {
+     font-family: 'poppins', sans-serif;
+     font-size: 1.125em;
+     margin: 20px 0;
+   }
+
+   p {
+     font-size: 0.875em;
+     line-height: 1.285;
+   }
+
+   address {
+     font-style: normal;
+   }
+
    .content-wrapper {
      width: 90%;
      margin: 50px 0;
@@ -199,7 +241,7 @@ textarea {
    }
 
    .features article {
-     width: 60%;
+     width: 63%;
      margin: 30px 0;
    }
 
@@ -472,6 +514,10 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles */
+
+  header {
+    padding: 15px 0;
+  }
   .content-wrapper {
     width: 960px;
   }
