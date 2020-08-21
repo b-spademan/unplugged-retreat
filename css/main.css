@@ -248,6 +248,7 @@ textarea {
      justify-content: center;
      flex-flow: row wrap;
      background: url('../img/jake-melara-unsplash.jpg') center no-repeat #333;
+     min-height: 500px;
      background-size: cover;
    }
 
@@ -324,6 +325,12 @@ textarea {
      margin: 0;
      color: #e1e2ea;
    }
+
+   .features i {
+     font-size: 3.75em;
+     margin-bottom: 40px;
+   }
+
 /* Reviews */
 
    .reviews {
