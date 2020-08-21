@@ -207,7 +207,6 @@ textarea {
    footer {
      flex-direction: column;
      text-align: center;
-     color: #ffffff;
    }
 
    footer p {
@@ -227,12 +226,21 @@ textarea {
      display: flex;
      justify-content: space-around;
      align-items: center;
+
    }
 
    footer .social-icons p {
      display: flex;
      justify-content: center;
      align-items: center;
+     background-color: #527158;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+   }
+
+   footer .social-icons p i {
+     font-size: 1.3125em;
    }
 
    footer .copyright {
@@ -625,6 +633,12 @@ h3 {
   footer p {
     line-height: 1.285;
   }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
