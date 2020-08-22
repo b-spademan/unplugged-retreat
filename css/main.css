@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /*** General Syles ***/
+   /***** General Syles *****/
 
    html {
     font-size: 16px;
@@ -144,7 +144,9 @@ textarea {
      width: 90%;
      margin: 50px 0;
    }
+
    /***** BASE HEADER - FOOTER STYLES *****/
+
    header,
    footer {
      display: flex;
@@ -153,7 +155,9 @@ textarea {
      flex-flow: row wrap;
      background-color: #202322;
    }
+
    /***** HEADER STYLES *****/
+
    header {
      padding: 15px 0;
    }
@@ -202,7 +206,7 @@ textarea {
      font-size: 1.125em;
    }
 
-/* Footer Styles */
+/***** Footer Styles *****/
 
    footer {
      flex-direction: column;
@@ -250,7 +254,7 @@ textarea {
      margin: 20px 0;
    }
 
-   /***** MOBILE STYES - Homepage *****/
+   /***** MOBILE STYES - HOMEPAGE *****/
 
    /* Hero Area */
 
@@ -313,6 +317,7 @@ textarea {
      text-align: center;
      text-transform: uppercase;
    }
+
    /* Features */
 
    .features {
@@ -350,7 +355,7 @@ textarea {
      margin-bottom: 40px;
    }
 
-/* Reviews */
+   /* Reviews */
 
    .reviews {
      display: flex;
@@ -533,9 +538,9 @@ textarea {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* Tablet Styles */
+  /***** Tablet Styles *****/
 
-  /* General Styles */
+  /*** General Styles ***/
   .content-wrapper {
     width: 640px;
     margin: 100px 0;
@@ -544,22 +549,24 @@ textarea {
   h2 {
   font-size: 2.25em;
   line-height: 1.333;
-}
+  }
 
-h3 {
+  h3 {
   font-size: 1.5em;
   line-height: 1.25;
-}
+  }
 
-  /* Header Styles */
+  /*** Header Styles ***/
   header {
     justify-content: space-around;
     padding: 33px 0;
   }
+
   header .content-wrapper {
     width: 80%;
     justify-content: space-between;
   }
+
   header figure {
     width: 30%;
 
@@ -567,6 +574,7 @@ h3 {
   header nav {
     width: 30%;
   }
+
   header nav ul {
     justify-content: space-between;
     font-size: 1em;
@@ -575,13 +583,16 @@ h3 {
   .header-divider {
     display: none;
   }
+
   /* Hero Area */
   .hero-area {
     min-height: 600px;
   }
+
   .hero-area .content-wrapper {
     width: 80%;
   }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -589,13 +600,13 @@ h3 {
   }
 
   /* Aside */
-
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
   }
+
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 40%;
@@ -603,10 +614,10 @@ h3 {
   }
 
   /* Features */
-
   .features h2 {
     margin-bottom: 20px;
   }
+
   .features article {
     display: flex;
     justify-content: center;
@@ -614,18 +625,22 @@ h3 {
     flex-flow: column wrap;
     flex-basis: 50%;
   }
+
   .features .features-item-description {
     width: 62%;
   }
+
   /* Reviews */
   .reviews article {
     display: flex;
     justify-content: space-between;
   }
+
   .reviews h2 {
     width: 85%;
     margin: 0 0 40px 0;
   }
+
   .reviews article figure,
   .reviews article div {
     width: 49%;
@@ -641,6 +656,7 @@ h3 {
     width: 65%;
     margin: 100px 0 0;
   }
+
   footer .footer-content {
     display: flex;
     justify-content: space-between;
@@ -648,9 +664,11 @@ h3 {
     flex-direction: row;
     margin-bottom: 80px;
   }
+
   footer .contact {
     margin-bottom: 0;
   }
+
   footer h4 {
   font-size: 1.5em;
   margin-bottom: 40px;
@@ -676,6 +694,7 @@ h3 {
     align-items: center;
     padding-top: 20px;
   }
+
   .mission-content p {
     width: 45%;
   }
@@ -687,11 +706,13 @@ h3 {
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
+
   .contact-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
+
   .contact-content h4 {
     font-size: 1.5em;
   }
@@ -700,12 +721,15 @@ h3 {
   .faq .content-wrapper {
     justify-content: space-between;
   }
+
   .faq h2 {
     width: 100%;
   }
+
   .faq-content {
     flex-basis: 45%;
   }
+
   .faq h4,
   .faq p {
     font-size: .875em;
@@ -714,14 +738,16 @@ h3 {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop Styles */
 
+  /***** Desktop Styles *****/
   header {
     padding: 15px 0;
   }
+
   .content-wrapper {
     width: 960px;
   }
+
   h2 {
   font-size: 2.25em;
   }
@@ -736,20 +762,22 @@ h3 {
     line-height: 1.333;
   }
 
-
   /* Hero Area */
   .hero-area h1 {
     font-size: 3.75em;
     width: 80%;
   }
+
   /* Aside */
   aside .content-wrapper {
     justify-content: space-around;
   }
+
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 30%;
   }
+
   .form-description p {
     font-size: 1.125em;
   }
@@ -758,16 +786,20 @@ h3 {
   .features h2 {
     width: 90%;
   }
+
   .features article {
     flex-basis: 33%;
   }
+
   /* Reviews */
   .reviews h2 {
     padding-bottom: 50px;
   }
+
   .reviews article div {
     width: 42%;
   }
+
   .footer h4 {
     font-size: 1.875em;
   }
@@ -792,6 +824,7 @@ h3 {
     width: 100%;
     font-size: 3em;
   }
+  
   .faq h4,
   .faq p {
     font-size: 1.125em;
